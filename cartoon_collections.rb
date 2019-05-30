@@ -25,10 +25,13 @@ def find_the_cheese(foodArr)
     case food
     when food == "cheddar"
       cheeseFound = "cheddar"
+      break
     when food == "gouda"
       cheeseFound = "gouda"
+      break
     when food == "camembert"
       cheeseFound = "camembert"
+      break
     else
       cheeseFound = nil
     end
