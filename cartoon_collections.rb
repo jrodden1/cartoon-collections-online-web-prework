@@ -19,7 +19,19 @@ def long_planeteer_calls(calloutsArr)
   isLonger
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(foodArr)
+  cheeseFound = ""
+  foodArr.each do |food|
+    case food 
+    when == "cheddar"
+      cheeseFound = "cheddar"
+    when == "gouda"
+      cheeseFound = "gouda"
+    when == "camembert"
+      cheeseFound = "camembert"
+    else 
+      cheeseFound = "No Cheese Found."
+  end
 end
+# the array below is here to help
+# cheese_types = ["cheddar", "gouda", "camembert"]
