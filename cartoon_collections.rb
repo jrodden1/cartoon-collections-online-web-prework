@@ -20,7 +20,7 @@ def long_planeteer_calls(calloutsArr)
 end
 
 def find_the_cheese(foodArr)
-  # cheeseFound = ""
+   cheeseFound = ""
   foodArr.each do |food|
     case food
     when food == "cheddar"
