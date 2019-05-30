@@ -11,8 +11,12 @@ def summon_captain_planet(planetcallsArr)
   end
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calloutsArr)
+  isLonger = false
+  calloutsArr.map do |callout|
+    callout.length > 3 ? isLonger = true : isLonger = false  
+  end
+  isLonger
 end
 
 def find_the_cheese# code an argument here
