@@ -20,23 +20,15 @@ def long_planeteer_calls(calloutsArr)
 end
 
 def find_the_cheese(foodArr)
-   cheeseFound = ""
-  foodArr.each do |food|
-    case food
-    when food == "cheddar"
-      cheeseFound = "cheddar"
-      break
-    when food == "gouda"
-      cheeseFound = "gouda"
-      break
-    when food == "camembert"
-      cheeseFound = "camembert"
-      break
-    else
-      #cheeseFound = nil
-    end
+  if foodArr.include?("cheddar") == true
+    return "cheddar"
+  elsif foodArr.include?("gouda") == true
+    return "gouda"
+  elsif foodArr.include?("camembert") == true
+    return "camembert"
+  else
+    return nil
   end
-  cheeseFound
 end
 # the array below is here to help
 # cheese_types = ["cheddar", "gouda", "camembert"]
