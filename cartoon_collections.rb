@@ -32,6 +32,7 @@ def find_the_cheese(foodArr)
     else
       cheeseFound = "No Cheese Found."
   end
+  cheeseFound
 end
 # the array below is here to help
 # cheese_types = ["cheddar", "gouda", "camembert"]
