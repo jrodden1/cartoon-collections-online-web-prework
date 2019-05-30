@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planetcallsArr)
   planetcallsArr.map do |planetcall|
-    planetcall.upcase
+    planetcall.upcase!
     planetcall << "!"
   end
 end
