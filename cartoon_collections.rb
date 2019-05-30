@@ -22,14 +22,14 @@ end
 def find_the_cheese(foodArr)
   cheeseFound = ""
   foodArr.each do |food|
-    case food 
+    case food
     when == "cheddar"
       cheeseFound = "cheddar"
     when == "gouda"
       cheeseFound = "gouda"
     when == "camembert"
       cheeseFound = "camembert"
-    else 
+    else
       cheeseFound = "No Cheese Found."
   end
 end
