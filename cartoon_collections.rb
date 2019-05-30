@@ -33,7 +33,7 @@ def find_the_cheese(foodArr)
       cheeseFound = "camembert"
       break
     else
-      cheeseFound = nil
+      #cheeseFound = nil
     end
   end
   cheeseFound
