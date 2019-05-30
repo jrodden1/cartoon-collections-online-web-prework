@@ -14,9 +14,7 @@ end
 def long_planeteer_calls(calloutsArr)
   isLonger = false
   calloutsArr.map do |callout|
-    if callout.length > 4
-      isLonger = true
-    end
+    callout.length > 4 ? isLonger = true : isLonger = false
   end
   isLonger
 end
